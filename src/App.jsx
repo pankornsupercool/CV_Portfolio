@@ -35,7 +35,6 @@ function App() {
     <Div>
       <SidebarMain>
       </SidebarMain>
-      <HomePage />
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/programmingskill' element={< ProgrammingSkill />} />

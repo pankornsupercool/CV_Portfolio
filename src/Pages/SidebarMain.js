@@ -21,7 +21,7 @@ function SidebarMain() {
                 <Sidebar_li>
                     <Side_a as={Link} to="/">
                         <i class='bx bx-spa' ></i>
-                        <span >Home Page</span>
+                        <span >Home Page ZA</span>
                     </Side_a>
                 </Sidebar_li>
                 {/* Space */}
