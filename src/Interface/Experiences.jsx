@@ -2,6 +2,7 @@ import styled from 'styled-components';
 // ` `
 
 export const ExpContainer = styled.div`
+<<<<<<< HEAD
   height: 1800px;
   max-width: 1640px;
   width: 100%;
@@ -12,6 +13,18 @@ export const ExpContainer = styled.div`
   padding: 12px 120px 80px 80px;
   padding-left: 100px;
 `;
+=======
+height: 1600px;
+max-width: 1640px;
+width: 100%;
+border-left: 1px solid black;
+justify-content:center;
+align-content:center;
+background-color : #f5f2eb;
+padding: 12px 120px 80px 80px;
+padding-left: 100px;
+`
+>>>>>>> 01a4471155c65273065202256f2457a9fa18b276
 
 export const MainContainer1 = styled.div`
   justify-content: center;
