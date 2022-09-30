@@ -2,7 +2,7 @@ import styled from "styled-components";
 // ` `
 
 export const ExpContainer = styled.div`
-height: 1800px;
+height: 1600px;
 max-width: 1640px;
 width: 100%;
 border-left: 1px solid black;
