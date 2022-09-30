@@ -1,11 +1,11 @@
-import styled from "styled-components";
-import { ShowcaseContainer } from "../Interface/Showcase"
+// import styled from "styled-components";
+import { PageLayout } from '../Interface/ProgrammingSkill';
 
 function Showcase() {
-    return (
-        <ShowcaseContainer>
-            <h1>No content yet.</h1>
-        </ShowcaseContainer>
-    );
+  return (
+    <PageLayout>
+      <h1>No content yet.</h1>
+    </PageLayout>
+  );
 }
 export default Showcase;
