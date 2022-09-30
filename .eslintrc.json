@@ -1,0 +1,15 @@
+{
+  "extends": "react-app",
+  "rules": {
+    "no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "^_",
+        "varsIgnorePattern": "^_"
+      }
+    ],
+    "react-hooks/exhaustive-deps": "off",
+    "react/display-name": 0,
+    "react/jsx-pascal-case": 0
+  }
+}
