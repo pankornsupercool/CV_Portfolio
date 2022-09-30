@@ -17,12 +17,7 @@ export const HeaderContainer = styled.div`
 export const Container1 = styled.div`
     margin-top: 25px;
     width:350px;
-    border: 1px solid black;
-    border-radius: 5px;
     text-align: center;
-    background-color: white;
-
-    color: black;
 
     color: black;
 
@@ -33,18 +28,23 @@ export const Container1 = styled.div`
 export const Container2 = styled.div`
     width:80%;
     border-radius: 5px;
-    padding: 5px;
 
 `
 
 export const Container3 = styled.div`
     padding-left : 30px;
     padding-right : 30px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     margin-top: 10px;
     width:40%;
     border-radius: 5px;
     border : 1px solid black;
+
+    transition: 0.1s ease-out;
+    &:hover{
+        
+        
+    }
 
 
 `
@@ -53,7 +53,7 @@ export const Container4 = styled.div`
     padding-right : 30px;
     margin-top: 10px;
     width:40%;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     border-radius: 5px;
     border : 1px solid black;
 
@@ -62,15 +62,13 @@ export const Container4 = styled.div`
 export const Container5 = styled.div`
     padding-left : 30px;
     padding-right : 30px;
+    margin-bottom: 25px;
     margin-top: 10px;
     width:80%;
     margin-bottom: 10px;
 
     border-radius: 5px;
     border : 1px solid black;
-     background-image: url("../6.png");
- background-color: #cccccc;
- background-size: cover;
 
 
 `
